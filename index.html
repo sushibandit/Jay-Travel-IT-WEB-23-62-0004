@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+
+    <title>Jay Tours</title>
+
+    <style>
+        body{
+          font-family: Roboto;
+        }
+        .text-primary{
+            color: tomato !important;
+        }
+        .text-light:hover{
+            color: tomato !important;
+        }
+        .btn-dark{
+            border-color: tomato;
+        }
+        .img-fluid{
+          object-fit: none;
+          width: 100%;
+          max-height: 400px;
+        }
+        .card, .card img{
+          border-style: none;
+        }
+        .bg-primary{
+          background-color: rgb(0, 36, 36) !important;
+        }
+        
+        .num{
+          color: tomato;
+          font-family: Cormorant Garamond;
+        }
+        .txt{
+          color: whitesmoke;
+        }
+        .reviews-bar h5{
+          color: rgb(47, 107, 235);
+        }
+        .reviews-bar .card-body{
+          border-bottom: 5px solid rgb(47, 107, 235);
+        }
+        .useful-links-bar{
+          background-color: rgb(11, 41, 41);
+        }
+        .useful-links-bar h6, .useful-links-bar p{
+          color: whitesmoke;
+        }
+        .useful-links-bar li{
+          list-style: none;
+        }
+        .useful-links-bar a{
+          text-decoration: none;
+        }
+        footer p{
+          color: white;
+        }
+        i{
+          color: tomato;
+        }
+    </style>
+
+</head>
+
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg bg-black">
+            <div class="container-fluid">
+              <a class="navbar-brand text-primary fs-2 fw-bold" href="#">JAY TOURS</a>
+              <button class="navbar-toggler btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Testimonials</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Contacts</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <section class="main-image">
+        <img src="images/main.jpg" class="img-fluid" alt="Beach">
+    </section>
+
+    <section class="container top-destinations-title">
+        <h2 class="text-primary text-center" style="margin-top: 50px;">TOP DESTINATIONS</h2>
+    </section>
+
+    <section class="container top-destinations-bar">
+
+        <div class="row justify-content-evenly">
+
+          <div class="col-md">
+            <div class="card">
+              <div class="card-body">
+                <h6 class="card-title text-center">SRI LANKA</h6>
+              </div>
+              <img src="images/top_destinations/sri_lanka.jpg" class="img-thumbnail" alt="Sri Lanka">
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card">
+              <div class="card-body">
+                <h6 class="card-title text-center">ROME</h6>
+              </div>
+              <img src="images/top_destinations/rome.jpg" class="img-thumbnail" alt="Rome">
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card">
+              <div class="card-body">
+                <h6 class="card-title text-center">MALDIVES</h6>
+              </div>
+              <img src="images/top_destinations/maldives.jpg" class="img-thumbnail" alt="Maldives">
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card">
+              <div class="card-body">
+                <h6 class="card-title text-center">SWITZERLAND</h6>
+              </div>
+              <img src="images/top_destinations/switzerland.jpg" class="img-thumbnail" alt="Switzerland">
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card">
+              <div class="card-body">
+                <h6 class="card-title text-center">THAILAND</h6>
+              </div>
+              <img src="images/top_destinations/thailand.jpg" class="img-thumbnail" alt="Thailand">
+            </div>
+          </div>
+
+        </div>
+
+    </section>
+
+    <section class="container team-leads-title">
+      <h2 class="text-primary text-center" style="margin-top: 50px;">OUR TEAM LEADS</h2>
+      <div class="row">
+        <div class="col-2"></div>
+        <p class="col-8 text-center">Teamwork is the ability to work together towards a common vision. The ability to direct individual accomplishments towards organizational objectives. It is the fuel that allows common people to attain uncommon results.</p>
+        <div class="col-2"></div>
+      </div>
+    </section>
+
+    <section class="container team-leads-bar">
+
+        <div class="row justify-content-evenly">
+
+          <div class="col-md">
+            <div class="card">
+              <img src="images/team _leaders/hugo_silva.jpg" class="card-img-top" alt="Hugo Silva">
+              <div class="class-body">
+                <h5 class="card-title text-center mt-2">Hugo Silva</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card">
+              <img src="images/team _leaders/imanoli _arias.jpg" class="card-img-top" alt="Imanoli Arias">
+              <div class="class-body">
+                <h5 class="card-title text-center mt-2">Imanoli Arias</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card">
+              <img src="images/team _leaders/javier_bardem.jpg" class="card-img-top" alt="Javier Bardem">
+              <div class="class-body">
+                <h5 class="card-title text-center mt-2">Javier Bardem</h5>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+    </section>
+
+    <section class="container-fluid bg-primary stats-bar" style="margin-top: 50px;">
+
+        <div class="row justify-content-center">
+
+          <div class="col-sm-3 text-center mt-5 mb-5">
+            <h1 class="num">250k +</h1>
+            <p class="txt">HAPPY CLIENTS</p>
+          </div>
+
+          <div class="col-sm-3 text-center mt-5 mb-5">
+            <h1 class="num">800</h1>
+            <p class="txt">WEEKLY RESERNATIONS</p>
+          </div>
+
+          <div class="col-sm-3 text-center mt-5 mb-5">
+            <h1 class="num">150</h1>
+            <p class="txt">TRAVEL PARTNERS</p>
+          </div>
+
+          <div class="col-sm-3 text-center mt-5 mb-5">
+            <h1 class="num">15</h1>
+            <p class="txt">BRANCHES</p>
+          </div>
+
+        </div>
+
+    </section>
+
+    <section class="container reviews-title">
+      <h2 class="text-primary text-center" style="margin-top: 50px;">OVERHEARD FROM TRAVELERS</h2>
+    </section>
+
+    <section class="container reviews-bar">
+
+      <div class="row mt-4">
+
+        <div class="col-md-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <h5>Hotel Eucalyptus</h5>
+              <p>in Greece</p>
+              <blockquote class="blockquote mb-0">
+                <p>"We booked Hotel Eucalyptus through Jay after reading a handful of reviews, and it was easily the best decision we made."</p>
+                <footer class="blockquote-footer">Joyce from Canada</footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <h5>Holiday Inn Resort Batam</h5>
+              <p>in Indonesia</p>
+              <blockquote class="blockquote mb-0">
+                <p>"Thanks Jay for letting me change room without charge and rebate the difference. Nice staffs Agoda and Holiday Inn!"</p>
+                <footer class="blockquote-footer">Andy from Singapore</footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <h5>Hotel Granvia Kyoto</h5>
+              <p>in Japan</p>
+              <blockquote class="blockquote mb-0">
+                <p>"Our family was traveling via bullet train between cities in Japan with our luggage - the location for this hotel made that..."</p>
+                <footer class="blockquote-footer">Diane from United States</footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="container contactus-title">
+      <h2 class="text-primary text-center" style="margin-top: 50px;">CONTACT US</h2>
+    </section>
+
+    <section class="container contact-form">
+
+      <form>
+
+        <div class="row justify-content-center">
+          <div class="col-3 col-md-6">
+            <input type="text" class="form-control" placeholder="First Name" aria-label="First Name" id="first_name">
+          </div>
+          <div class="col-3 col-md-6">
+            <input type="text" class="form-control" placeholder="Last Name" aria-label="Last Name" id="last_name">
+          </div>
+        </div>
+
+        <div class="row justify-content-center mt-4">
+          <div class="col-6">
+            <input type="email" class="form-control" placeholder="E-Mail" aria-label="E-Mail" id="e_mail">
+          </div>
+        </div>
+
+        <div class="row justify-content-center mt-4">
+          <div class="col-6">
+            <input type="tel" class="form-control" placeholder="Phone Number" aria-label="Phone Number" id="phone_number">
+          </div>
+        </div>
+
+        <div class="row justify-content-center mt-4">
+          <div class="col-4">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">Subscribe to our newsletter</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mt-4 ">
+          <div class="col-4 d-grid gap-2 mx-auto">
+            <button type="submit" class="btn btn-primary">SIGN IN</button>
+          </div>
+        </div>
+
+      </form>
+
+    </section>
+
+    <section class="container-fluid pt-5 pb-5 useful-links-bar" style="margin-top: 100px;">
+      
+      <div class="row">
+        
+        <div class="col-md mt-4">
+          <h6>HELP</h6>
+          
+            <li><a class="text-light" href="#">Help Center</a></li>
+            <li><a class="text-light" href="#">FAQs</a></li>
+            <li><a class="text-light" href="#">Terms of Use</a></li>
+          
+        </div>
+
+        <div class="col-md mt-4">
+          <h6>ABOUT US</h6>
+          
+            <li><a class="text-light" href="#">Blog</a></li>
+            <li><a class="text-light" href="#">Careers</a></li>
+          
+        </div>
+
+        <div class="col-md mt-4">
+          <h6>DESTINATIONS</h6>
+          
+            <li><a class="text-light" href="#">Countries</a></li>
+            <li><a class="text-light" href="#">Cities</a></li>
+          
+        </div>
+
+        <div class="col-md mt-4">
+          <h6>PARTNER WITH US</h6>
+          
+            <li><a class="text-light" href="#">Properties</a></li>
+            <li><a class="text-light" href="#">Affiliates</a></li>
+          
+        </div>
+
+        <div class="col-md mt-4">
+          <div class="row">
+            <div class="col-2"><i class="fa-solid fa-phone"></i></div>
+            <div class="col">
+              <p>+94 112 875 965</p>
+              <p>+94 115 879 568</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-2"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="col">
+              <p>No. 056,<br>
+              Havlock Town,<br>
+              Colombo 05,<br>
+              Sri Lanka</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <footer class="container-fluid bg-dark pt-4 pb-2 text-center">
+      <p>Copyright © 2020 - SLIIT WEB DEVELOPMENT - All Rights Reserved</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
